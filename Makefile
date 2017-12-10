@@ -7,4 +7,4 @@ npmbuild:
 dockerbuild:
 	docker build --rm --tag=docker.blnk.io/darksky-spa:latest .
 run:
-	docker run --rm -d --name darksky_spa --network=isolated_nw docker.blnk.io/darksky-spa
+	docker run -d --name darksky_spa --network=isolated_nw docker.blnk.io/darksky-spa
